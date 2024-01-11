@@ -118,8 +118,8 @@ class GoldenTestGroup extends StatelessWidget {
         defaultColumnWidth: const IntrinsicColumnWidth(),
         columnWidths: columnWidths,
         border: TableBorder.symmetric(
-          inside: BorderSide(
-            color: Colors.black.withOpacity(0.3),
+          inside: const BorderSide(
+            color: Colors.grey,
           ),
         ),
         children: [
